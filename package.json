@@ -1,0 +1,24 @@
+{
+  "name": "esportsdata",
+  "version": "0.0.1",
+  "description": "A way to ollect and present esports data in a webapplication",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "esports"
+  ],
+  "author": "Ward Geene",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8",
+    "pug": "^2.0.0-beta4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0"
+  }
+}
