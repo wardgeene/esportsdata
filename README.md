@@ -2,21 +2,12 @@
 Praticing setting up and database with esports data
 
 Welkom to esportsdata. This is just a practice project where I set the following objectives for myself:
-<<<<<<< HEAD
 - Setup Node JS  / **done**
 - Setup Express  / **done**
 - Setup MongoDB   / **done**
 - Setup Mongo models for tournaments (**done**), matches, teams and players
 - Setup CRUD for database (**done** for tournaments)
 - Setup Pug  / **done**
-=======
-- Setup Node JS **done**
-- Setup Express *done
-- Setup MongoDB *done
-- Setup Mongo models for tournaments (*done), matches, teams and players
-- Setup CRUD for database (*done for tournaments)
-- Setup Pug *done
->>>>>>> origin/master
 - Create a frontend to communicate with the database via CRUD
 - Create a login for user/admins
 - Create adminpage with CRUD controls for admins
