@@ -2,6 +2,10 @@
   "name": "esportsdata",
   "version": "0.0.1",
   "description": "A way to ollect and present esports data in a webapplication",
+  "repository":
+    { "type": "git",
+      "url": "https://github.com/wardgeene/esportsdata"
+    },
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
