@@ -5,7 +5,20 @@ block content
   p Welcome to #{title}
   h1= message
 
+  p Create a form to create new tournaments
+
+  p Create a way to update and delete tournaments in the list below
+
   .tournaments
     ul
     each t in tournaments
       li= t.title
+
+  p Create mock up for tournament list
+
+  ul
+    li
+      label Tournament 1
+      input(type='text')
+      button edit
+      button delete
