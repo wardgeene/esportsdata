@@ -2,7 +2,7 @@
 Praticing setting up and database with esports data
 
 Welkom to esportsdata. This is just a practice project where I set the following objectives for myself:
-- Setup Node JS *done
+- Setup Node JS **done**
 - Setup Express *done
 - Setup MongoDB *done
 - Setup Mongo models for tournaments (*done), matches, teams and players
