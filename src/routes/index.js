@@ -1,6 +1,7 @@
 var express = require('express');
-var router = express.Router();
 var Tournament = require('../models/tournament');
+
+var router = express.Router();
 
 router.get('/', function (req, res) {
   // res.send('root');
@@ -9,7 +10,8 @@ router.get('/', function (req, res) {
         //do something
         return res.status(500).json({message: err.message});
     }
-    res.json({tournaments: tournaments});
+    res.render('index.pug', { title: 'Express', tournaments: tournaments });
+    // res.json({tournaments: tournaments});
   });
 });
 

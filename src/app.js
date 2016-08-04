@@ -1,9 +1,10 @@
 'use strict';
 
-// modules
+// modules - in alphabethical order
 var express = require('express');
 var index = require('./routes/index');
 var parser = require('body-parser');
+var path = require('path');
 var pug = require('pug');
 
 //create app

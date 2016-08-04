@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h1= message
+
+  .tournaments
+    ul
+    each t in tournaments
+      li= t.title
